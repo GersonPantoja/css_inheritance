@@ -9,6 +9,10 @@
   max-width: 39rem;
   margin: 0 auto;
 }
+
+/*header{
+  margin: auto;
+}*/
 body,.subtitle{
   font-family: PT Serif, serif;
 }
@@ -22,20 +26,36 @@ h1{
   font-family: Cinzel, serif;
   font-size: 96px;
   line-height: 5rem;
-  padding-top: 50px;
+  padding-top: 10rem;
+  margin-bottom: 0;
   color: black;
-  padding-bottom: 1px;
-
 }
+
 
 .text-center{
   text-align: center;
 }
 
 .subtitle{
-  color: #7D7D7D;
   font-size: 36px;
+  color: #7D7D7D;
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
+  width: auto;
+}
+
+.lead{
+  font-size: 21px;
+  padding-top: 70px;
+  line-height: 35px;
+}
+
+.link{
+  color: #CA5E10;
+}
+
+#paragraph{
+  line-height: 32px;
+  min-width: 630px;
 }
